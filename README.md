@@ -62,6 +62,10 @@ For each ticket in the specified ranges, the script navigates to the ticket URL,
 The script iterates through the provided ticket ranges and downloads the attachments for each ticket. Finally, the script quits the WebDriver instance and prints a success message.
 
 
+### Demo:
+https://github.com/user-attachments/assets/e505b3f6-1bce-407e-b050-53c35e230f72
+
+
 ### Upcoming Changes:
 ##### Version 2:
 Version 2 will have more input sanitization and prompt the user to choose the download directory instead of hardcoding it in the script.
