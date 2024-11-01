@@ -20,7 +20,7 @@ Before you start, make sure you have the following installed:
   ```
 
 
-###Configuring the script
+### Configuring the script
 - Set your osTicket credentials:
 Open the automaticTicketDownloader.py file and replace 'your_username' and 'your_password' with your actual osTicket username and password.
 ```
