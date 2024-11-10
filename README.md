@@ -20,7 +20,7 @@ Before you start, make sure you have the following installed:
   ```
 
 
-###Configuring the script
+### Configuring the script
 - Set your osTicket credentials:
 Open the automaticTicketDownloader.py file and replace 'your_username' and 'your_password' with your actual osTicket username and password.
 ```
@@ -60,6 +60,10 @@ Please provide ticket # range for Lab3b Thursday (e.g., 369-469):
 The script starts by creating folders for each combination of lab number, variation, and section. Next, the script sets up a Chrome WebDriver instance with specific profile settings to handle downloads. Then the script logs in to osTicket using the provided credentials.
 For each ticket in the specified ranges, the script navigates to the ticket URL, finds the attachment links, and downloads the attachments. The script then waits for the downloads to complete by checking the file's modification time. 
 The script iterates through the provided ticket ranges and downloads the attachments for each ticket. Finally, the script quits the WebDriver instance and prints a success message.
+
+
+### Demo:
+https://github.com/user-attachments/assets/d0816c35-1bab-49d3-aadf-47e9db9e2459
 
 
 ### Upcoming Changes:
