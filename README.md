@@ -1,4 +1,4 @@
-# Automatic Ticket Downloader v1
+# Automatic Ticket Downloader v2
 This script automates the process of downloading attachments from osTicket tickets and organizing them into specific folders based on lab numbers, variations (Lab a or b), and Sections.
 
 
@@ -65,7 +65,12 @@ The script iterates through the provided ticket ranges and downloads the attachm
 ### Demo:
 https://github.com/user-attachments/assets/d0816c35-1bab-49d3-aadf-47e9db9e2459
 
+### Change Log:
+##### Version 2:
+Bug fixes: File renaming with section number now works properly. The format stays consistent while the name changes.
+Added counters: The script now counts the number of attachments downloaded (pdf, docx, others).
+Multiple responses: Gracefully handles multiple responses. If the latest response has an attachment, downloads that. If the latest response doesn't contain an attachment, downloads the most recent one.
 
 ### Upcoming Changes:
-##### Version 2:
-Version 2 will have more input sanitization and prompt the user to choose the download directory instead of hardcoding it in the script.
+##### Version 3:
+Tkinter download location selector file explorer window, emailing the stats to the TA (and prof)
