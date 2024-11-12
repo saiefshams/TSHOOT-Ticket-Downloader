@@ -118,12 +118,6 @@ def wait_for_downloads(directory, filename, timeout=60):
             return
         time.sleep(1)
 
-# Function to wait for downloads to complete
-def wait_for_downloads(download_directory, filename):
-    file_path = os.path.join(download_directory, filename)
-    while not os.path.exists(file_path):
-        time.sleep(1)
-    return file_path
 
 # Function to download attachments from the latest response
 def download_attachment(ticket_id, lab_number, pod, y, day):
