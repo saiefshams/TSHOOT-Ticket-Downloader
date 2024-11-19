@@ -1,3 +1,8 @@
+### Ticket Downloader for TSHOOT Lab Tickets
+### This script is used to download attachments from osTicket tickets for the TSHOOT lab.
+### Author: Saief Shams Murad ['25 NITS]
+### Date: 2024-11-18
+
 import os
 import time
 import json
